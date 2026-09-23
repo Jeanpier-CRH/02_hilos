@@ -1,0 +1,25 @@
+# Compilación y Ejecutables
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Carpetas de compilación comunes
+build/
+bin/
+obj/
+
+# Archivos de depuración y volcados
+*.dSYM/
+*.suo
+*.pdb
+*.ilk
+*.ilk
+
+# Sistemas operativos y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
