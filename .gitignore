@@ -1,25 +1,48 @@
-# Compilación y Ejecutables
+# Archivos objeto y de compilación
 *.o
 *.obj
+*.lo
+*.la
+
+# Archivos de dependencias
+*.d
+
+# Librerías estáticas y dinámicas
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Ejecutables y binarios
 *.exe
 *.out
 *.app
+*.elf
+*.hex
 
-# Carpetas de compilación comunes
-build/
-bin/
-obj/
-
-# Archivos de depuración y volcados
+# Archivos de depuración y perfiles
 *.dSYM/
-*.suo
+*.su
+*.idb
 *.pdb
 *.ilk
-*.ilk
+*.map
+*.exp
+*.gch
+*.pch
+.dwo
 
-# Sistemas operativos y editores
-.DS_Store
-Thumbs.db
+# Archivos de editores e IDEs comunes
 .vscode/
 .idea/
 *.swp
+*.swo
+*~
+*.orig
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
